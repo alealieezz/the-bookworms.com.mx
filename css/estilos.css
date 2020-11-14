@@ -1,0 +1,498 @@
+*{margin: 0; padding: 0;}
+
+/*----------index----------*/
+body{
+    background: linear-gradient(to bottom, rgba(0,0,0,0.7) 0%,rgba(0,0,0,0.7) 100%),url(../imagenes/fondo6.jpg);
+}
+
+header{
+    width: 100%;
+    overflow: hidden;
+    background-color: #C5763F;
+    margin-bottom: 20px;
+}
+
+header .logo{
+    font-family: cursive;
+    color: black;
+    font-size: 50px;
+    line-height: 200px;
+    float: left;
+}
+
+header nav{
+    float: right;
+    line-height: 200px;
+}
+
+header nav a{
+    font-family: cursive;
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    text-decoration-color: #DA905E;
+    padding: 10px 20px;
+    line-height: normal;
+    font-size: 15px;
+    font-weight: bold;
+    -webkit-transition:all 500ms ease;
+    -o-transition:all 500ms ease;
+    transition:all 500ms ease;
+}
+
+header nav a:hover{
+    background: #DA905E;
+    border-radius: 50px;
+}
+
+.header2 {
+    position: fixed;
+    height: 100px;  
+}
+
+.header2 .logo{
+    line-height: 100px;
+    font-size: 30px;
+}
+
+.header2 nav{
+    line-height: 100px;
+}
+
+.contenido p{
+    margin-bottom: 1em; 
+}
+
+@media screen and (max-width: 650px) {
+    header .logo,
+    
+    header nav{
+        width: 100%;
+        text-align: center;
+        line-height: 100px; 
+    }
+    
+    .header2{
+        height: auto;
+    }
+    
+    .header2 .logo,
+    
+    .header2 nav {
+        line-height: 50px;
+    }
+    
+}
+
+.autores{
+    width: 90%;
+    max-width: 1000px;
+    margin:auto;
+    overflow: hidden;
+}
+
+
+
+
+
+#presenta .ask{
+    font-family: cursive;
+    text-align: center;
+    color: #DDDDDA;
+    font-size: 28px;
+    text-align: left;
+}
+
+#presenta .des{
+    color: white;
+    font-size: 22px;
+}
+
+#presenta .autores{
+    color: white;
+    font-size: 18px;
+}
+
+.info_general{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.imagen-about-us{
+    width: 35%;
+}
+
+.sobre-nosotros .contenido-textos{
+    width: 35%;
+}
+
+.contenido-textos h3{
+    margin-bottom: 5px;
+}
+
+.contenido-textos h3 span{
+    background-color: burlywood;
+    color: white;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    padding: 1px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    margin-right: 5px;
+}
+
+.contenido-textos p{
+    padding: 0px 0px 30px 15px;
+    font-weight: 300;
+    text-align: left;
+}
+/*----------index----------*/
+
+
+
+
+
+#blog h1, h4
+{
+    text-align: center;
+    color: white;
+}
+
+#blog h1
+{
+    font-size: 28px;
+}
+
+#blog .contenedor
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#blog article
+{
+    text-align: center;
+    background: #DE945D;
+    color: black;
+    padding: 8px;
+    margin-left: 10px;
+}
+
+#blog img
+{
+    width: 90%;
+    max-width: 300px;
+    border-radius: 0%;
+    border: 1px solid;
+    border-color: dimgray;
+}
+
+
+
+#blog a
+{
+    float: right;
+    display: block;
+    width: 100px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#blog a:hover
+{
+    background: rgba(255,255,255,0.3)
+}
+
+
+
+
+
+/*--------CATEGORIAS--------*/
+header{
+    width: 100%;
+    overflow: hidden;
+    background-color: #C5763F;
+    margin-bottom: 20px;
+}
+
+header .logo{
+    font-family: cursive;
+    color: black;
+    font-size: 50px;
+    line-height: 200px;
+    float: left;
+}
+
+header nav{
+    float: right;
+    line-height: 200px;
+}
+
+header nav a{
+    font-family: cursive;
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    text-decoration-color: #F1C7A8;
+    padding: 10px 20px;
+    line-height: normal;
+    font-size: 15px;
+    font-weight: bold;
+    -webkit-transition:all 500ms ease;
+    -o-transition:all 500ms ease;
+    transition:all 500ms ease;
+}
+
+header nav a:hover{
+    background: #DA905E;
+    border-radius: 50px;
+}
+
+.header2 {
+    position: fixed;
+    height: 100px;  
+}
+
+.header2 .logo{
+    line-height: 100px;
+    font-size: 30px;
+}
+
+.header2 nav{
+    line-height: 100px;
+}
+
+.contenido p{
+    margin-bottom: 1em; 
+}
+
+@media screen and (max-width: 650px) {
+    header .logo,
+    
+    header nav{
+        width: 100%;
+        text-align: center;
+        line-height: 100px; 
+    }
+    
+    .header2{
+        height: auto;
+    }
+    
+    .header2 .logo,
+    
+    .header2 nav {
+        line-height: 50px;
+    }
+    
+}
+
+.categorias{
+    width: 110%;
+    max-width: 1000px;
+    margin:auto;
+    overflow: hidden;
+}
+
+
+
+
+
+#presenta .ask{
+    font-family: cursive;
+    text-align: center;
+    color: #DDDDDA;
+    font-size: 26px;
+    text-align: left;
+}
+#presenta .des{
+    color: white;
+    font-size: 20px;
+}
+.info_categorias{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.imagen_categorias{
+    width: 35%;
+}
+
+.sobre-nosotros .contenido_categorias{
+    width: 35%;
+}
+
+.contenido_categorias h3{
+    margin-bottom: 5px;
+}
+
+.contenido_categorias h3 span{
+    background-color: burlywood;
+    color: white;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    padding: 1px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    margin-right: 5px;
+}
+
+.contenido_categorias p{
+    padding: 0px 0px 30px 15px;
+    font-weight: 300;
+    text-align: left;
+}
+/*-------CATEGORIAS--------*/
+
+
+
+
+
+/*--------NOVEDADES--------*/
+header{
+    width: 100%;
+    overflow: hidden;
+    background-color: #C5763F;
+    margin-bottom: 20px;
+}
+
+header .logo{
+    font-family: cursive;
+    color: black;
+    font-size: 50px;
+    line-height: 200px;
+    float: left;
+}
+
+header nav{
+    float: right;
+    line-height: 200px;
+}
+
+header nav a{
+    font-family: cursive;
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    text-decoration-color: #DA905E;
+    padding: 10px 20px;
+    line-height: normal;
+    font-size: 15px;
+    font-weight: bold;
+    -webkit-transition:all 500ms ease;
+    -o-transition:all 500ms ease;
+    transition:all 500ms ease;
+}
+
+header nav a:hover{
+    background: #DA905E;
+    border-radius: 50px;
+}
+
+.header2 {
+    position: fixed;
+    height: 100px;  
+}
+
+.header2 .logo{
+    line-height: 100px;
+    font-size: 30px;
+}
+
+.header2 nav{
+    line-height: 100px;
+}
+
+.contenido p{
+    margin-bottom: 1em; 
+}
+
+@media screen and (max-width: 650px) {
+    header .logo,
+    
+    header nav{
+        width: 100%;
+        text-align: center;
+        line-height: 100px; 
+    }
+    
+    .header2{
+        height: auto;
+    }
+    
+    .header2 .logo,
+    
+    .header2 nav {
+        line-height: 50px;
+    }
+    
+}
+
+.novedades{
+    width: 90%;
+    max-width: 1000px;
+    margin:auto;
+    overflow: hidden;
+}
+
+
+
+
+
+#presenta .ask{
+    font-family: cursive;
+    text-align: center;
+    color: #DDDDDA;
+    font-size: 20px;
+    text-align: left;
+}
+#presenta .des{
+    color: white;
+    font-size: 20px;
+}
+.info_novedades{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.imagen_novedades{
+    width: 10%;
+}
+
+.sobre-nosotros .contenido_novedades{
+    width: 35%;
+}
+
+.contenido_novedades h3{
+    margin-bottom: 5px;
+}
+
+.contenido_novedades h3 span{
+    background-color: burlywood;
+    color: white;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    padding: 1px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    margin-right: 5px;
+}
+
+.contenido_novedades p{
+    padding: 0px 0px 30px 15px;
+    font-weight: 300;
+    text-align: left;
+}
+/*-------NOVEDADES---------*/
